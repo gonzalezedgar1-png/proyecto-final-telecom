@@ -168,9 +168,7 @@ Se creó la variable:
 wait_duration = total_call_duration - call_duration
 
 
----
-
-## 6. EDA
+--## 6. EDA
 
 ```
 # 🔎 Análisis exploratorio de datos (EDA)
@@ -234,7 +232,7 @@ avg_wait_sec = wait_seconds / incoming_calls
 
 ## 8. Identificación de operadores prioritarios
 
-```markdown
+```
 # ⚠️ Identificación de operadores prioritarios
 
 Para evitar conclusiones inestables basadas en operadores con muy pocas llamadas, se estableció un mínimo de:
@@ -255,7 +253,7 @@ avg_wait_sec >= 20.80 segundos
 
 ## 9. Señal outbound
 
-```markdown
+```
 # 📤 Señal complementaria: llamadas salientes
 
 Además de las métricas entrantes, se utilizó el volumen outbound como una señal secundaria.
@@ -270,7 +268,7 @@ outgoing_calls <= 58
 
 ## 10. Pruebas estadísticas
 
-```markdown
+```
 # 🧪 Pruebas estadísticas
 
 Se realizaron pruebas estadísticas para evaluar si existían diferencias entre los planes tarifarios **A, B y C**.
@@ -292,7 +290,7 @@ p = 0.8561
 
 ## 11. Dashboards Tableau
 
-```markdown
+```
 # 📊 Dashboards interactivos
 
 Los dashboards fueron desarrollados utilizando **Tableau Public**.
@@ -369,7 +367,7 @@ Conclusiones
 
 ## 14. Conclusiones
 
-```markdown
+```
 # 💡 Conclusiones
 
 1. Después de la limpieza se obtuvieron **40,658 registros** para el análisis y **1,085 operadores**.
