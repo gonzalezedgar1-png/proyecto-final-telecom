@@ -172,7 +172,7 @@ wait_duration = total_call_duration - call_duration
 
 ## 6. EDA
 
-```markdown
+```
 # 🔎 Análisis exploratorio de datos (EDA)
 
 El periodo analizado comprende:
