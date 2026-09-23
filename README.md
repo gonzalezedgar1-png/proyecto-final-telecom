@@ -166,11 +166,11 @@ Se creó la variable:
 
 ```text
 wait_duration = total_call_duration - call_duration
-
-
---## 6. EDA
+```
+```text
 
 ```
+## 6. EDA
 # 🔎 Análisis exploratorio de datos (EDA)
 
 El periodo analizado comprende:
@@ -222,17 +222,15 @@ Para evaluar el desempeño individual se calcularon las siguientes métricas.
 
 ### Tasa de llamadas perdidas
 
+
 ```text
 missed_rate = missed_calls / incoming_calls
 
 avg_wait_sec = wait_seconds / incoming_calls
-
-
----
-
+```
 ## 8. Identificación de operadores prioritarios
 
-```
+
 # ⚠️ Identificación de operadores prioritarios
 
 Para evitar conclusiones inestables basadas en operadores con muy pocas llamadas, se estableció un mínimo de:
@@ -240,6 +238,7 @@ Para evitar conclusiones inestables basadas en operadores con muy pocas llamadas
 **20 llamadas entrantes.**
 
 Los umbrales utilizados fueron:
+
 
 ```text
 incoming_calls >= 20
@@ -249,11 +248,11 @@ missed_rate >= 0.66%
 avg_wait_sec >= 20.80 segundos
 
 
+```
 ---
-
 ## 9. Señal outbound
 
-```
+
 # 📤 Señal complementaria: llamadas salientes
 
 Además de las métricas entrantes, se utilizó el volumen outbound como una señal secundaria.
@@ -262,7 +261,6 @@ El umbral utilizado fue:
 
 ```text
 outgoing_calls <= 58
-
 
 ---
 
